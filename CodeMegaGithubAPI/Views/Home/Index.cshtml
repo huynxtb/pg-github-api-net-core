@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h2 class="display-4">Code Mega Upload Image With Github API</h2>
+</div>
+
+<div class="form-control">
+    <form enctype="multipart/form-data" method="POST" action="/File/Upload">
+        
+        <label for="file">Choose Image:</label><br><br>
+        
+        <input type="file" id="file" name="imageFile"><br><br>
+
+        <input type="submit" value="Submit">
+        
+    </form>
+</div>
